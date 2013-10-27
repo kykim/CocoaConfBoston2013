@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E56486C21816FD4E00C67E17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E56486C11816FD4E00C67E17 /* Foundation.framework */; };
+		E56486C41816FD4E00C67E17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E56486C31816FD4E00C67E17 /* CoreGraphics.framework */; };
+		E56486C61816FD4E00C67E17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E56486C51816FD4E00C67E17 /* UIKit.framework */; };
+		E56486CC1816FD4E00C67E17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E56486CA1816FD4E00C67E17 /* InfoPlist.strings */; };
+		E56486CE1816FD4E00C67E17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E56486CD1816FD4E00C67E17 /* main.m */; };
+		E56486D21816FD4E00C67E17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E56486D11816FD4E00C67E17 /* AppDelegate.m */; };
+		E56486D51816FD4E00C67E17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E56486D31816FD4E00C67E17 /* Main.storyboard */; };
+		E56486DB1816FD4E00C67E17 /* CatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E56486DA1816FD4E00C67E17 /* CatViewController.m */; };
+		E56486DD1816FD4E00C67E17 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E56486DC1816FD4E00C67E17 /* Images.xcassets */; };
+		E56486E41816FD4E00C67E17 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E56486E31816FD4E00C67E17 /* XCTest.framework */; };
+		E56486E51816FD4E00C67E17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E56486C11816FD4E00C67E17 /* Foundation.framework */; };
+		E56486E61816FD4E00C67E17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E56486C51816FD4E00C67E17 /* UIKit.framework */; };
+		E56486EE1816FD4E00C67E17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E56486EC1816FD4E00C67E17 /* InfoPlist.strings */; };
+		E56486F01816FD4E00C67E17 /* BeaconClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E56486EF1816FD4E00C67E17 /* BeaconClientTests.m */; };
+		E56487001816FECE00C67E17 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E56486FF1816FECE00C67E17 /* CoreBluetooth.framework */; };
+		E56487021816FED300C67E17 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E56487011816FED200C67E17 /* CoreLocation.framework */; };
+		E56C111F18170D3000EFE14D /* libBeaconCat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E56C111E18170D3000EFE14D /* libBeaconCat.a */; };
+		E5B608E21818C81A0002979A /* ohnoes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5B608E11818C81A0002979A /* ohnoes.jpg */; };
+		E5BCDD2A18184299005A1003 /* 1000067_149001545293618_787768708_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5BCDD1118184299005A1003 /* 1000067_149001545293618_787768708_n.jpg */; };
+		E5BCDD2B18184299005A1003 /* 1001142_151402281720211_45587975_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5BCDD1218184299005A1003 /* 1001142_151402281720211_45587975_n.jpg */; };
+		E5BCDD2C18184299005A1003 /* 1001618_149001405293632_1884871007_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5BCDD1318184299005A1003 /* 1001618_149001405293632_1884871007_n.jpg */; };
+		E5BCDD2D18184299005A1003 /* 1002259_149001568626949_1497692357_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5BCDD1418184299005A1003 /* 1002259_149001568626949_1497692357_n.jpg */; };
+		E5BCDD2E18184299005A1003 /* 1002734_149001608626945_1004021253_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5BCDD1518184299005A1003 /* 1002734_149001608626945_1004021253_n.jpg */; };
+		E5BCDD2F18184299005A1003 /* 1010654_149001485293624_1285353273_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5BCDD1618184299005A1003 /* 1010654_149001485293624_1285353273_n.jpg */; };
+		E5BCDD3018184299005A1003 /* 1011322_149001458626960_1004598641_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5BCDD1718184299005A1003 /* 1011322_149001458626960_1004598641_n.jpg */; };
+		E5BCDD3118184299005A1003 /* 1013651_149770028550103_1913664672_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5BCDD1818184299005A1003 /* 1013651_149770028550103_1913664672_n.jpg */; };
+		E5BCDD3218184299005A1003 /* 1017259_149001498626956_1447452172_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5BCDD1918184299005A1003 /* 1017259_149001498626956_1447452172_n.jpg */; };
+		E5BCDD3318184299005A1003 /* 1045120_149001595293613_1809702417_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5BCDD1A18184299005A1003 /* 1045120_149001595293613_1809702417_n.jpg */; };
+		E5BCDD3418184299005A1003 /* 1045162_149001381960301_772976919_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5BCDD1B18184299005A1003 /* 1045162_149001381960301_772976919_n.jpg */; };
+		E5BCDD3518184299005A1003 /* 270479_149001428626963_1296152673_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5BCDD1C18184299005A1003 /* 270479_149001428626963_1296152673_n.jpg */; };
+		E5BCDD3618184299005A1003 /* 310850_129194217274351_103187586_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5BCDD1D18184299005A1003 /* 310850_129194217274351_103187586_n.jpg */; };
+		E5BCDD3718184299005A1003 /* 382142_129193933941046_437341378_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5BCDD1E18184299005A1003 /* 382142_129193933941046_437341378_n.jpg */; };
+		E5BCDD3818184299005A1003 /* 386810_129194303941009_1232291500_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5BCDD1F18184299005A1003 /* 386810_129194303941009_1232291500_n.jpg */; };
+		E5BCDD3918184299005A1003 /* 397839_129194010607705_917300491_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5BCDD2018184299005A1003 /* 397839_129194010607705_917300491_n.jpg */; };
+		E5BCDD3A18184299005A1003 /* 485568_129186870608419_938796864_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5BCDD2118184299005A1003 /* 485568_129186870608419_938796864_n.jpg */; };
+		E5BCDD3B18184299005A1003 /* 575445_129193973941042_1131646284_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5BCDD2218184299005A1003 /* 575445_129193973941042_1131646284_n.jpg */; };
+		E5BCDD3C18184299005A1003 /* 575629_129194043941035_389508419_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5BCDD2318184299005A1003 /* 575629_129194043941035_389508419_n.jpg */; };
+		E5BCDD3D18184299005A1003 /* 9053_150275101832929_1284322186_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5BCDD2418184299005A1003 /* 9053_150275101832929_1284322186_n.jpg */; };
+		E5BCDD3E18184299005A1003 /* 923179_129194230607683_1441701176_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5BCDD2518184299005A1003 /* 923179_129194230607683_1441701176_n.jpg */; };
+		E5BCDD3F18184299005A1003 /* 923237_129194053941034_1274314430_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5BCDD2618184299005A1003 /* 923237_129194053941034_1274314430_n.jpg */; };
+		E5BCDD4018184299005A1003 /* 936717_129194130607693_1529137648_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5BCDD2718184299005A1003 /* 936717_129194130607693_1529137648_n.jpg */; };
+		E5BCDD4118184299005A1003 /* 999660_149769205216852_642572397_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5BCDD2818184299005A1003 /* 999660_149769205216852_642572397_n.jpg */; };
+		E5BCDD4218184299005A1003 /* Cats.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5BCDD2918184299005A1003 /* Cats.plist */; };
+		E5FAF24E18180AAD00F956FD /* BeaconCat+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = E5FAF24D18180AAD00F956FD /* BeaconCat+Image.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E56486E71816FD4E00C67E17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E56486B61816FD4E00C67E17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E56486BD1816FD4E00C67E17;
+			remoteInfo = BeaconClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E56486BE1816FD4E00C67E17 /* BeaconClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeaconClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E56486C11816FD4E00C67E17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E56486C31816FD4E00C67E17 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E56486C51816FD4E00C67E17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E56486C91816FD4E00C67E17 /* BeaconClient-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeaconClient-Info.plist"; sourceTree = "<group>"; };
+		E56486CB1816FD4E00C67E17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E56486CD1816FD4E00C67E17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E56486CF1816FD4E00C67E17 /* BeaconClient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeaconClient-Prefix.pch"; sourceTree = "<group>"; };
+		E56486D01816FD4E00C67E17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E56486D11816FD4E00C67E17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E56486D41816FD4E00C67E17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E56486D91816FD4E00C67E17 /* CatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CatViewController.h; sourceTree = "<group>"; };
+		E56486DA1816FD4E00C67E17 /* CatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatViewController.m; sourceTree = "<group>"; };
+		E56486DC1816FD4E00C67E17 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E56486E21816FD4E00C67E17 /* BeaconClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeaconClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E56486E31816FD4E00C67E17 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E56486EB1816FD4E00C67E17 /* BeaconClientTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeaconClientTests-Info.plist"; sourceTree = "<group>"; };
+		E56486ED1816FD4E00C67E17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E56486EF1816FD4E00C67E17 /* BeaconClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeaconClientTests.m; sourceTree = "<group>"; };
+		E56486FF1816FECE00C67E17 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		E56487011816FED200C67E17 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E56C111E18170D3000EFE14D /* libBeaconCat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBeaconCat.a; path = "../BeaconCat/build/Debug-iphoneos/libBeaconCat.a"; sourceTree = "<group>"; };
+		E5B608E11818C81A0002979A /* ohnoes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ohnoes.jpg; sourceTree = "<group>"; };
+		E5BCDD1118184299005A1003 /* 1000067_149001545293618_787768708_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1000067_149001545293618_787768708_n.jpg; sourceTree = "<group>"; };
+		E5BCDD1218184299005A1003 /* 1001142_151402281720211_45587975_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1001142_151402281720211_45587975_n.jpg; sourceTree = "<group>"; };
+		E5BCDD1318184299005A1003 /* 1001618_149001405293632_1884871007_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1001618_149001405293632_1884871007_n.jpg; sourceTree = "<group>"; };
+		E5BCDD1418184299005A1003 /* 1002259_149001568626949_1497692357_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1002259_149001568626949_1497692357_n.jpg; sourceTree = "<group>"; };
+		E5BCDD1518184299005A1003 /* 1002734_149001608626945_1004021253_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1002734_149001608626945_1004021253_n.jpg; sourceTree = "<group>"; };
+		E5BCDD1618184299005A1003 /* 1010654_149001485293624_1285353273_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1010654_149001485293624_1285353273_n.jpg; sourceTree = "<group>"; };
+		E5BCDD1718184299005A1003 /* 1011322_149001458626960_1004598641_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1011322_149001458626960_1004598641_n.jpg; sourceTree = "<group>"; };
+		E5BCDD1818184299005A1003 /* 1013651_149770028550103_1913664672_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1013651_149770028550103_1913664672_n.jpg; sourceTree = "<group>"; };
+		E5BCDD1918184299005A1003 /* 1017259_149001498626956_1447452172_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1017259_149001498626956_1447452172_n.jpg; sourceTree = "<group>"; };
+		E5BCDD1A18184299005A1003 /* 1045120_149001595293613_1809702417_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1045120_149001595293613_1809702417_n.jpg; sourceTree = "<group>"; };
+		E5BCDD1B18184299005A1003 /* 1045162_149001381960301_772976919_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1045162_149001381960301_772976919_n.jpg; sourceTree = "<group>"; };
+		E5BCDD1C18184299005A1003 /* 270479_149001428626963_1296152673_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 270479_149001428626963_1296152673_n.jpg; sourceTree = "<group>"; };
+		E5BCDD1D18184299005A1003 /* 310850_129194217274351_103187586_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 310850_129194217274351_103187586_n.jpg; sourceTree = "<group>"; };
+		E5BCDD1E18184299005A1003 /* 382142_129193933941046_437341378_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 382142_129193933941046_437341378_n.jpg; sourceTree = "<group>"; };
+		E5BCDD1F18184299005A1003 /* 386810_129194303941009_1232291500_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 386810_129194303941009_1232291500_n.jpg; sourceTree = "<group>"; };
+		E5BCDD2018184299005A1003 /* 397839_129194010607705_917300491_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 397839_129194010607705_917300491_n.jpg; sourceTree = "<group>"; };
+		E5BCDD2118184299005A1003 /* 485568_129186870608419_938796864_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 485568_129186870608419_938796864_n.jpg; sourceTree = "<group>"; };
+		E5BCDD2218184299005A1003 /* 575445_129193973941042_1131646284_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 575445_129193973941042_1131646284_n.jpg; sourceTree = "<group>"; };
+		E5BCDD2318184299005A1003 /* 575629_129194043941035_389508419_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 575629_129194043941035_389508419_n.jpg; sourceTree = "<group>"; };
+		E5BCDD2418184299005A1003 /* 9053_150275101832929_1284322186_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9053_150275101832929_1284322186_n.jpg; sourceTree = "<group>"; };
+		E5BCDD2518184299005A1003 /* 923179_129194230607683_1441701176_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 923179_129194230607683_1441701176_n.jpg; sourceTree = "<group>"; };
+		E5BCDD2618184299005A1003 /* 923237_129194053941034_1274314430_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 923237_129194053941034_1274314430_n.jpg; sourceTree = "<group>"; };
+		E5BCDD2718184299005A1003 /* 936717_129194130607693_1529137648_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 936717_129194130607693_1529137648_n.jpg; sourceTree = "<group>"; };
+		E5BCDD2818184299005A1003 /* 999660_149769205216852_642572397_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 999660_149769205216852_642572397_n.jpg; sourceTree = "<group>"; };
+		E5BCDD2918184299005A1003 /* Cats.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Cats.plist; path = ../../Cats.plist; sourceTree = "<group>"; };
+		E5FAF24C18180AAD00F956FD /* BeaconCat+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BeaconCat+Image.h"; sourceTree = "<group>"; };
+		E5FAF24D18180AAD00F956FD /* BeaconCat+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BeaconCat+Image.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E56486BB1816FD4E00C67E17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E56C111F18170D3000EFE14D /* libBeaconCat.a in Frameworks */,
+				E56487021816FED300C67E17 /* CoreLocation.framework in Frameworks */,
+				E56487001816FECE00C67E17 /* CoreBluetooth.framework in Frameworks */,
+				E56486C41816FD4E00C67E17 /* CoreGraphics.framework in Frameworks */,
+				E56486C61816FD4E00C67E17 /* UIKit.framework in Frameworks */,
+				E56486C21816FD4E00C67E17 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E56486DF1816FD4E00C67E17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E56486E41816FD4E00C67E17 /* XCTest.framework in Frameworks */,
+				E56486E61816FD4E00C67E17 /* UIKit.framework in Frameworks */,
+				E56486E51816FD4E00C67E17 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E56486B51816FD4E00C67E17 = {
+			isa = PBXGroup;
+			children = (
+				E56486C71816FD4E00C67E17 /* BeaconClient */,
+				E56486E91816FD4E00C67E17 /* BeaconClientTests */,
+				E56486C01816FD4E00C67E17 /* Frameworks */,
+				E56486BF1816FD4E00C67E17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E56486BF1816FD4E00C67E17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E56486BE1816FD4E00C67E17 /* BeaconClient.app */,
+				E56486E21816FD4E00C67E17 /* BeaconClientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E56486C01816FD4E00C67E17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E56C111E18170D3000EFE14D /* libBeaconCat.a */,
+				E56487011816FED200C67E17 /* CoreLocation.framework */,
+				E56486FF1816FECE00C67E17 /* CoreBluetooth.framework */,
+				E56486C11816FD4E00C67E17 /* Foundation.framework */,
+				E56486C31816FD4E00C67E17 /* CoreGraphics.framework */,
+				E56486C51816FD4E00C67E17 /* UIKit.framework */,
+				E56486E31816FD4E00C67E17 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E56486C71816FD4E00C67E17 /* BeaconClient */ = {
+			isa = PBXGroup;
+			children = (
+				E56486D01816FD4E00C67E17 /* AppDelegate.h */,
+				E56486D11816FD4E00C67E17 /* AppDelegate.m */,
+				E56486D31816FD4E00C67E17 /* Main.storyboard */,
+				E56486D91816FD4E00C67E17 /* CatViewController.h */,
+				E56486DA1816FD4E00C67E17 /* CatViewController.m */,
+				E56486DC1816FD4E00C67E17 /* Images.xcassets */,
+				E56486C81816FD4E00C67E17 /* Supporting Files */,
+				E5FAF24C18180AAD00F956FD /* BeaconCat+Image.h */,
+				E5FAF24D18180AAD00F956FD /* BeaconCat+Image.m */,
+			);
+			path = BeaconClient;
+			sourceTree = "<group>";
+		};
+		E56486C81816FD4E00C67E17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5BCDD1018184299005A1003 /* Cats */,
+				E5BCDD2918184299005A1003 /* Cats.plist */,
+				E5B608E11818C81A0002979A /* ohnoes.jpg */,
+				E56486C91816FD4E00C67E17 /* BeaconClient-Info.plist */,
+				E56486CA1816FD4E00C67E17 /* InfoPlist.strings */,
+				E56486CD1816FD4E00C67E17 /* main.m */,
+				E56486CF1816FD4E00C67E17 /* BeaconClient-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E56486E91816FD4E00C67E17 /* BeaconClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				E56486EF1816FD4E00C67E17 /* BeaconClientTests.m */,
+				E56486EA1816FD4E00C67E17 /* Supporting Files */,
+			);
+			path = BeaconClientTests;
+			sourceTree = "<group>";
+		};
+		E56486EA1816FD4E00C67E17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E56486EB1816FD4E00C67E17 /* BeaconClientTests-Info.plist */,
+				E56486EC1816FD4E00C67E17 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E5BCDD1018184299005A1003 /* Cats */ = {
+			isa = PBXGroup;
+			children = (
+				E5BCDD1118184299005A1003 /* 1000067_149001545293618_787768708_n.jpg */,
+				E5BCDD1218184299005A1003 /* 1001142_151402281720211_45587975_n.jpg */,
+				E5BCDD1318184299005A1003 /* 1001618_149001405293632_1884871007_n.jpg */,
+				E5BCDD1418184299005A1003 /* 1002259_149001568626949_1497692357_n.jpg */,
+				E5BCDD1518184299005A1003 /* 1002734_149001608626945_1004021253_n.jpg */,
+				E5BCDD1618184299005A1003 /* 1010654_149001485293624_1285353273_n.jpg */,
+				E5BCDD1718184299005A1003 /* 1011322_149001458626960_1004598641_n.jpg */,
+				E5BCDD1818184299005A1003 /* 1013651_149770028550103_1913664672_n.jpg */,
+				E5BCDD1918184299005A1003 /* 1017259_149001498626956_1447452172_n.jpg */,
+				E5BCDD1A18184299005A1003 /* 1045120_149001595293613_1809702417_n.jpg */,
+				E5BCDD1B18184299005A1003 /* 1045162_149001381960301_772976919_n.jpg */,
+				E5BCDD1C18184299005A1003 /* 270479_149001428626963_1296152673_n.jpg */,
+				E5BCDD1D18184299005A1003 /* 310850_129194217274351_103187586_n.jpg */,
+				E5BCDD1E18184299005A1003 /* 382142_129193933941046_437341378_n.jpg */,
+				E5BCDD1F18184299005A1003 /* 386810_129194303941009_1232291500_n.jpg */,
+				E5BCDD2018184299005A1003 /* 397839_129194010607705_917300491_n.jpg */,
+				E5BCDD2118184299005A1003 /* 485568_129186870608419_938796864_n.jpg */,
+				E5BCDD2218184299005A1003 /* 575445_129193973941042_1131646284_n.jpg */,
+				E5BCDD2318184299005A1003 /* 575629_129194043941035_389508419_n.jpg */,
+				E5BCDD2418184299005A1003 /* 9053_150275101832929_1284322186_n.jpg */,
+				E5BCDD2518184299005A1003 /* 923179_129194230607683_1441701176_n.jpg */,
+				E5BCDD2618184299005A1003 /* 923237_129194053941034_1274314430_n.jpg */,
+				E5BCDD2718184299005A1003 /* 936717_129194130607693_1529137648_n.jpg */,
+				E5BCDD2818184299005A1003 /* 999660_149769205216852_642572397_n.jpg */,
+			);
+			name = Cats;
+			path = ../../Cats;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E56486BD1816FD4E00C67E17 /* BeaconClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E56486F31816FD4E00C67E17 /* Build configuration list for PBXNativeTarget "BeaconClient" */;
+			buildPhases = (
+				E56486BA1816FD4E00C67E17 /* Sources */,
+				E56486BB1816FD4E00C67E17 /* Frameworks */,
+				E56486BC1816FD4E00C67E17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeaconClient;
+			productName = BeaconClient;
+			productReference = E56486BE1816FD4E00C67E17 /* BeaconClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E56486E11816FD4E00C67E17 /* BeaconClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E56486F61816FD4E00C67E17 /* Build configuration list for PBXNativeTarget "BeaconClientTests" */;
+			buildPhases = (
+				E56486DE1816FD4E00C67E17 /* Sources */,
+				E56486DF1816FD4E00C67E17 /* Frameworks */,
+				E56486E01816FD4E00C67E17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E56486E81816FD4E00C67E17 /* PBXTargetDependency */,
+			);
+			name = BeaconClientTests;
+			productName = BeaconClientTests;
+			productReference = E56486E21816FD4E00C67E17 /* BeaconClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E56486B61816FD4E00C67E17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "AppOrchard, LLC";
+				TargetAttributes = {
+					E56486BD1816FD4E00C67E17 = {
+						DevelopmentTeam = 76S55YBJ36;
+					};
+					E56486E11816FD4E00C67E17 = {
+						TestTargetID = E56486BD1816FD4E00C67E17;
+					};
+				};
+			};
+			buildConfigurationList = E56486B91816FD4E00C67E17 /* Build configuration list for PBXProject "BeaconClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E56486B51816FD4E00C67E17;
+			productRefGroup = E56486BF1816FD4E00C67E17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E56486BD1816FD4E00C67E17 /* BeaconClient */,
+				E56486E11816FD4E00C67E17 /* BeaconClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E56486BC1816FD4E00C67E17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5BCDD2F18184299005A1003 /* 1010654_149001485293624_1285353273_n.jpg in Resources */,
+				E5BCDD3018184299005A1003 /* 1011322_149001458626960_1004598641_n.jpg in Resources */,
+				E5BCDD3618184299005A1003 /* 310850_129194217274351_103187586_n.jpg in Resources */,
+				E5BCDD3718184299005A1003 /* 382142_129193933941046_437341378_n.jpg in Resources */,
+				E56486DD1816FD4E00C67E17 /* Images.xcassets in Resources */,
+				E5BCDD3118184299005A1003 /* 1013651_149770028550103_1913664672_n.jpg in Resources */,
+				E5BCDD3F18184299005A1003 /* 923237_129194053941034_1274314430_n.jpg in Resources */,
+				E5BCDD3C18184299005A1003 /* 575629_129194043941035_389508419_n.jpg in Resources */,
+				E5BCDD4118184299005A1003 /* 999660_149769205216852_642572397_n.jpg in Resources */,
+				E56486CC1816FD4E00C67E17 /* InfoPlist.strings in Resources */,
+				E5BCDD2E18184299005A1003 /* 1002734_149001608626945_1004021253_n.jpg in Resources */,
+				E5BCDD4218184299005A1003 /* Cats.plist in Resources */,
+				E5BCDD3218184299005A1003 /* 1017259_149001498626956_1447452172_n.jpg in Resources */,
+				E5BCDD2C18184299005A1003 /* 1001618_149001405293632_1884871007_n.jpg in Resources */,
+				E5BCDD3A18184299005A1003 /* 485568_129186870608419_938796864_n.jpg in Resources */,
+				E5BCDD2D18184299005A1003 /* 1002259_149001568626949_1497692357_n.jpg in Resources */,
+				E5BCDD2B18184299005A1003 /* 1001142_151402281720211_45587975_n.jpg in Resources */,
+				E5BCDD3D18184299005A1003 /* 9053_150275101832929_1284322186_n.jpg in Resources */,
+				E56486D51816FD4E00C67E17 /* Main.storyboard in Resources */,
+				E5BCDD3318184299005A1003 /* 1045120_149001595293613_1809702417_n.jpg in Resources */,
+				E5BCDD3518184299005A1003 /* 270479_149001428626963_1296152673_n.jpg in Resources */,
+				E5BCDD3918184299005A1003 /* 397839_129194010607705_917300491_n.jpg in Resources */,
+				E5BCDD2A18184299005A1003 /* 1000067_149001545293618_787768708_n.jpg in Resources */,
+				E5BCDD4018184299005A1003 /* 936717_129194130607693_1529137648_n.jpg in Resources */,
+				E5BCDD3418184299005A1003 /* 1045162_149001381960301_772976919_n.jpg in Resources */,
+				E5B608E21818C81A0002979A /* ohnoes.jpg in Resources */,
+				E5BCDD3E18184299005A1003 /* 923179_129194230607683_1441701176_n.jpg in Resources */,
+				E5BCDD3818184299005A1003 /* 386810_129194303941009_1232291500_n.jpg in Resources */,
+				E5BCDD3B18184299005A1003 /* 575445_129193973941042_1131646284_n.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E56486E01816FD4E00C67E17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E56486EE1816FD4E00C67E17 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E56486BA1816FD4E00C67E17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5FAF24E18180AAD00F956FD /* BeaconCat+Image.m in Sources */,
+				E56486DB1816FD4E00C67E17 /* CatViewController.m in Sources */,
+				E56486D21816FD4E00C67E17 /* AppDelegate.m in Sources */,
+				E56486CE1816FD4E00C67E17 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E56486DE1816FD4E00C67E17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E56486F01816FD4E00C67E17 /* BeaconClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E56486E81816FD4E00C67E17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E56486BD1816FD4E00C67E17 /* BeaconClient */;
+			targetProxy = E56486E71816FD4E00C67E17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E56486CA1816FD4E00C67E17 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E56486CB1816FD4E00C67E17 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E56486D31816FD4E00C67E17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E56486D41816FD4E00C67E17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E56486EC1816FD4E00C67E17 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E56486ED1816FD4E00C67E17 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E56486F11816FD4E00C67E17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E56486F21816FD4E00C67E17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E56486F41816FD4E00C67E17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeaconClient/BeaconClient-Prefix.pch";
+				INFOPLIST_FILE = "BeaconClient/BeaconClient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E56486F51816FD4E00C67E17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeaconClient/BeaconClient-Prefix.pch";
+				INFOPLIST_FILE = "BeaconClient/BeaconClient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E56486F71816FD4E00C67E17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BeaconClient.app/BeaconClient";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeaconClient/BeaconClient-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BeaconClientTests/BeaconClientTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E56486F81816FD4E00C67E17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BeaconClient.app/BeaconClient";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeaconClient/BeaconClient-Prefix.pch";
+				INFOPLIST_FILE = "BeaconClientTests/BeaconClientTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E56486B91816FD4E00C67E17 /* Build configuration list for PBXProject "BeaconClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E56486F11816FD4E00C67E17 /* Debug */,
+				E56486F21816FD4E00C67E17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E56486F31816FD4E00C67E17 /* Build configuration list for PBXNativeTarget "BeaconClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E56486F41816FD4E00C67E17 /* Debug */,
+				E56486F51816FD4E00C67E17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E56486F61816FD4E00C67E17 /* Build configuration list for PBXNativeTarget "BeaconClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E56486F71816FD4E00C67E17 /* Debug */,
+				E56486F81816FD4E00C67E17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E56486B61816FD4E00C67E17 /* Project object */;
+}

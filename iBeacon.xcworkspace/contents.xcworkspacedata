@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:BeaconCat/BeaconCat.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BeaconClient/BeaconClient.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BeaconServer/BeaconServer.xcodeproj">
+   </FileRef>
+</Workspace>
