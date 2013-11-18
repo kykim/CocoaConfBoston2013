@@ -42,7 +42,7 @@
 - (void)MONITOR_RANGING
 {
     __MONITORING = NO;
-    __RANGING    = NO;
+    __RANGING    = YES;
 }
 
 - (void)viewDidLoad

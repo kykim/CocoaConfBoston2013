@@ -19,7 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    if (YES) {
+    if (NO) {
         self.locationManager = [[CLLocationManager alloc] init];
         self.locationManager.pausesLocationUpdatesAutomatically = NO;
         self.locationManager.activityType = CLActivityTypeFitness;
